@@ -1,5 +1,5 @@
 ## NAME:JEECIKASRINA M
-## REG NO:212223100015
+## REG NO:212223100015 
 #  EX:03 Uploading temperature sensor data in Thing Speak cloud
 
 # AIM:
