@@ -1,6 +1,6 @@
-## NAME:JECIKASRINA M
+## NAME:JEECIKASRINA M
 ## REG NO:212223100015
-# Uploading temperature sensor data in Thing Speak cloud
+#  EX:03 Uploading temperature sensor data in Thing Speak cloud
 
 # AIM:
 To monitor the temperature sensor data in the Thing speak using an ESP32 controller.
@@ -78,8 +78,8 @@ Automatically act on your data and communicate using third-party services like T
 #include <WiFi.h>
 #include "DHT.h"
 
-char ssid[] = "Smart A35";//your wifi ssid//
-char pass[] = "smartia7";//your wifi pass//
+char ssid[] = "jeecika";//your wifi ssid//
+char pass[] = "jeecka123";//your wifi pass//
 
 const  int out = 2;
 float temperature = 0;
@@ -87,7 +87,7 @@ float Humidity =0;
 WiFiClient client;
 DHT dht(out,DHT11);
 
-unsigned long myChannelField = 3087405;
+unsigned long myChannelField = 3087415;
 const int TemperatureField = 1;
 const int HumidityField =2;
 const char* myWriteAPIKey = "SPTHI9MRGLAVAP94";
@@ -139,8 +139,8 @@ delay(5000);
 <img width="1280" height="1280" alt="image" src="https://github.com/user-attachments/assets/595d1905-f06f-4ef1-bc50-d4558eb602c6" />
 
 # OUTPUT:
+<img width="944" height="568" alt="image" src="https://github.com/user-attachments/assets/e1a4442f-707a-4c29-b5ae-d7897d818ea1" />
 
-<img width="945" height="429" alt="p" src="https://github.com/user-attachments/assets/a34e3f3a-3e07-4460-86c3-3e979a7e7e74" />
 
 # RESULT:
 
