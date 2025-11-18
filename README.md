@@ -78,8 +78,8 @@ Automatically act on your data and communicate using third-party services like T
 #include <WiFi.h>
 #include "DHT.h"
 
-char ssid[] = "jeecika";//your wifi ssid//
-char pass[] = "jeecka123";//your wifi pass//
+char ssid[] = "OPPO A59 5G";//your wifi ssid//
+char pass[] = "jeecikasrina";//your wifi pass//
 
 const  int out = 2;
 float temperature = 0;
@@ -87,10 +87,10 @@ float Humidity =0;
 WiFiClient client;
 DHT dht(out,DHT11);
 
-unsigned long myChannelField = 3087415;
+unsigned long myChannelField = 3169441;
 const int TemperatureField = 1;
 const int HumidityField =2;
-const char* myWriteAPIKey = "SPTHI9MRGLAVAP94";
+const char* myWriteAPIKey = "U6RFHUQ66LRVATPX";
 
 void setup() {
   Serial.begin(115200);
@@ -136,10 +136,12 @@ delay(5000);
 ```
 
 # CIRCUIT DIAGRAM:
-<img width="1280" height="1280" alt="image" src="https://github.com/user-attachments/assets/595d1905-f06f-4ef1-bc50-d4558eb602c6" />
+![WhatsApp Image 2025-11-18 at 11 38 56_9f8c7028](https://github.com/user-attachments/assets/0988ef9a-6eb4-4a6f-88cb-6789717604c4)
+
 
 # OUTPUT:
-<img width="944" height="568" alt="image" src="https://github.com/user-attachments/assets/e1a4442f-707a-4c29-b5ae-d7897d818ea1" />
+<img width="1366" height="605" alt="3 a" src="https://github.com/user-attachments/assets/91d13ab0-1934-498c-b1bf-d94bcd3b317b" />
+<img width="1277" height="657" alt="3 b" src="https://github.com/user-attachments/assets/0c5b5e65-5915-4f46-88ea-08517c9aa792" />
 
 
 # RESULT:
